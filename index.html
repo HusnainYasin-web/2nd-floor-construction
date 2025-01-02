@@ -7,12 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <style>
-        body {
-
-            margin-left: 200px;
-
-        }
-
         th {
             padding: 10px;
             font-family: sans-serif;
@@ -27,11 +21,23 @@
         tr {
             text-align: center;
         }
+
+        .main {
+            display: flex;
+            flex-direction: column;
+        }
+
+       
+        .a{
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
     </style>
 </head>
 
 <body>
-    <div style="display: flex; flex-direction: column; gap: 20px; justify-content: center; align-items: center; height: 90vh;">
+    <div class="main">
         <table border="3">
             <caption style="font-family: sans-serif; font-size: 20px; font-weight: bold; padding: 10px;">Daily Report
             </caption>
@@ -73,9 +79,30 @@
                     <td>- -</td>
                     <td>- -</td>
                 </tr>
+                <tr>
+                    <td>01-01-2025 </td>
+                    <td>- -</td>
+                    <td>- -</td>
+                    <td>Cancal</td>
+                    <td>- -</td>
+                    <td>5000</td>
+                    <td>5000</td>
+                </tr>
+                <tr>
+                    <td>01-01-2025 </td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>Cancal</td>
+                    <td>02</td>
+                    <td>2000+1400</td>
+                    <td>3400</td>
+                </tr>
+                
             </tbody>
         </table>
-        <button style="display: flex; justify-content: center; "><a href="about.html">clik tha button</a></button>
+        <div class="a">
+            <button class="b"><a href="about.html">clik tha button</a></button>
+        </div>
     </div>
 
 </body>
